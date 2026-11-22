@@ -2,7 +2,7 @@
  * @description Automatiza la pesca mediante deteccion de pixeles.
  * @author Joseleelsuper, Haru
  * @date 2026/06/04
- * @version 4.1.1
+ * @version 4.1.2
  ***********************************************************************/
 
 #Requires AutoHotkey v2.0
@@ -25,7 +25,7 @@ class AutoFishingConfig {
     }
 
     static Window := {
-        Executables: ["BPSR.exe", "BPSR_EPIC.exe", "BPSR_Steam.exe"]
+        Executables: ["BPSR.exe", "BPSR", "BPSR_EPIC.exe", "BPSR_Steam.exe"]
     }
 
     static Keys := {
